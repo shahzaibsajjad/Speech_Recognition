@@ -6,8 +6,8 @@ import os
 
 from scipy.io import wavfile
 
-path_to_xml_files= 'C:\\Users\\Shah Zaib Sajjad\\Desktop\\Speech Recog\\FOLKE_Dataset\\Test Case\\XML Files'
-path_to_wav_files= 'C:\\Users\\Shah Zaib Sajjad\\Desktop\\Speech Recog\\FOLKE_Dataset\\Test Case\\Wave Audio'
+path_to_xml_files= 'C:\\Users\\Shah Zaib Sajjad\\Desktop\\Speech Recog\\MapTask_Ger\\l1_exmaralda_2.1\\l1_exmaralda_2.1'
+path_to_wav_files= 'C:\\Users\\Shah Zaib Sajjad\\Desktop\\Speech Recog\\MapTask_Ger\\l1_wav_2.1\\l1_wav_2.1'
 path_to_save= 'C:\\Users\\Shah Zaib Sajjad\\Desktop\\Speech Recog\\MapTask_Ger\\extracted_fillers_code_Test_New_data'
 
 xml_filelist = sorted(os.listdir(path_to_xml_files))
